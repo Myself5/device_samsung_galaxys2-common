@@ -56,13 +56,13 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES := \
+    AdvancedDisplay \
     com.android.future.usb.accessory \
     SamsungServiceMode \
     Torch
 
 # Audio Packages
 PRODUCT_PACKAGES += \
-    AdvancedDisplay \
     audio.primary.exynos4 \
     audio.a2dp.default \
     audio.r_submix.default \
