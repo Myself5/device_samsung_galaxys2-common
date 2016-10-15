@@ -61,6 +61,7 @@ EXTENDED_FONT_FOOTPRINT := true
 
 # Memory management
 MALLOC_SVELTE := true
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
