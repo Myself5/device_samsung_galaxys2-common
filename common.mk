@@ -60,7 +60,7 @@ PRODUCT_PACKAGES := \
     com.android.future.usb.accessory \
     SamsungServiceMode \
     Snap \
-    Gello
+    Browser
 
 # Legacy RIL
 PRODUCT_PACKAGES += \
