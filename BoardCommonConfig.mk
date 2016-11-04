@@ -145,6 +145,8 @@ BOARD_CUSTOM_BT_CONFIG := device/samsung/galaxys2-common/bluetooth/vnd_smdk4210.
 
 # Selinux
 BOARD_SEPOLICY_DIRS += device/samsung/galaxys2-common/selinux
+# Disable SELinux for now
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxys2-common/recovery/recovery_keys.c

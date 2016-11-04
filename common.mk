@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 
 # Audio Packages
 PRODUCT_PACKAGES += \
-    AdvancedDisplay \
+#    AdvancedDisplay \
     audio.primary.exynos4 \
     audio.a2dp.default \
     audio.r_submix.default \
@@ -172,8 +172,8 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 # SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+# PRODUCT_PACKAGES += \
+#     SamsungDoze
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
